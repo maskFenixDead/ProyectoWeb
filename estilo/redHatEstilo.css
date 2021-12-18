@@ -1,0 +1,40 @@
+
+body{
+    margin: 0px;
+}
+.seccion{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items:center;
+    align-content:space-around;
+    margin: 30px;
+    background-color:#ebc6c618;
+}
+
+.seccion > p,h3,h4,dl{
+
+    padding: 10px;
+    margin: 2px;
+}
+
+#seccion1{
+    margin-right: 100px;
+    border-left: 1em solid #ff0000;
+}
+
+#seccion2{
+    justify-content: flex-end;
+    margin-left: 100px;
+    border-right: 1em solid #ff0000;
+}
+#seccion3{
+    margin-right: 100px;
+    border-left: 1em solid #ff0000;
+}
+
+#seccion4{
+    justify-content: flex-end;
+    margin-left: 100px;
+    border-right: 1em solid #ff0000;
+}

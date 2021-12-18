@@ -1,0 +1,95 @@
+.fondo{
+    background-color: #ebc6c618;
+}
+
+div{
+
+    width: auto;
+    height: 60px;
+    background-color: #ebc6c618;
+    margin-bottom: 10px;
+}
+
+#fundadores{
+    width: auto;
+    height: 800px;
+    
+}
+
+.titulo{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 30px ;
+    margin-top: 10px;
+
+}
+
+#registrados{
+    background-color: white;
+    font-style: oblique;
+    font-size: x-large;
+    text-align:left;
+    width: auto;
+    height: 120px;
+}
+
+.titulofundadores{
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+    text-align:left;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#foto1{
+    border: 1em solid black;
+    background-color: white;
+    width: 328px;
+    height: 220px;
+    position: relative;
+    top: -20px;
+    left: 40px;
+}
+
+.Nombre{
+    font-style: oblique;
+    font-size: 25px;
+    color:black;
+    margin-top: 10px;
+}
+
+#info1{
+    background-color: #ebc6c618;
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -250px;
+    left: 410px;
+
+}
+
+#foto2{
+    border: 1em solid rgb(0, 0, 0);
+    background-color: white;
+    width: 320px;
+    height: 300px;
+    position: relative;
+    top: -150px;
+    left: 1100px;
+}
+
+#info2{
+    background-color: #ebc6c618;
+    width: 900px;
+    height: 200px;
+    position: relative;
+    top: -450px;
+    left: 150px;
+
+}
+
+.tamaño{
+    width: 320px;
+    height: 300px;
+}

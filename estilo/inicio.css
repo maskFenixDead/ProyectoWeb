@@ -1,0 +1,51 @@
+#nombres{
+    height: auto;
+    width: 500px;
+    position: relative;
+    top: 400px;
+    left: 900px;
+}
+
+
+#titmiembros{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+
+    
+}
+
+.miembros{
+    text-align: right;
+    color: white;
+    font-size: 20px;
+
+}
+
+#objetivo{
+    height: auto;
+    width: 500px;
+    position: relative;
+    top: 130px;
+    left: 10px;
+
+}
+
+.titobjetivo{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+
+}
+
+#fondo{
+    margin: 0px;
+    background-image: url("../imagenes/fondo6.jpg");
+
+}
+.infobj{
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
+

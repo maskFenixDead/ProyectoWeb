@@ -1,0 +1,159 @@
+body{
+    letter-spacing: .05rem;
+    word-spacing: .01rem;
+    font-family:Verdana, Tahoma, sans-serif;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0px!important;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+body{
+    background-image: url("../imagenes/fondoMain.JPG");
+    background-position:bottom right;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(19,19,19);
+    max-height: 100px;
+    z-index: 1;
+    width: 100%;
+}
+
+main{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(238,235,221);
+}
+
+div.infoMensaje{
+    border: 3px dotted rgb(238,235,221);
+    color: rgb(238,235,221);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+}
+
+section.titulo{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(238,0,0);
+    color: rgb(238,235,221);
+}
+
+section.formulario{
+    position: relative;
+    padding: 15px;
+    border: 3px solid rgb(238,0,0);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+section.regresoPrincipal{
+    padding: 15px;
+    max-height: 10px;
+}
+
+#flechaAtras{
+    width: 7%;
+}
+
+input[type="text"],input[type="password"],input[type="email"]{
+    outline: none;
+    border: 2px solid rgb(175, 174, 174);
+    line-height: 20px;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 16px;
+    width: 60%;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    color: rgb(253, 253, 253);
+    background: rgb(238,0,0);
+    width: 40%;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    transition: .4s;
+    border: 5px solid rgb(238,0,0);
+    background-color: rgba(238, 0, 0, 0.589);
+}
+
+form :nth-child(n){
+    margin: 10px 5px 10px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(238,235,221);
+}
+
+a:hover{
+    color: rgba(129, 0, 0, 0.767);
+    text-decoration: underline;
+} 
+
+a[class="enlaceCabecera"]{
+    margin: 25px;
+    border: 2px solid rgb(238,235,221);
+    border-radius: 25px;
+    max-height: 35px;
+    padding:12px 15px 0px 15px;
+    color: rgb(238,235,221);
+    text-decoration: none;
+}
+
+a[class="enlaceCabecera"]:hover{
+    transition: .5s;
+    border-color:rgb(238,0,0);
+    opacity: .7;
+}
+
+#ESCOM{
+    text-decoration: none;
+    color:rgb(10, 10, 10);
+}
+
+abbr:hover::after {
+    content: " (" attr(title) ")"
+}
+
+#logoRedHat img{
+    margin:10px;
+    height:80%;
+}
+
+#infoPieDePagina{
+    width:50%;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
